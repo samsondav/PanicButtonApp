@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		941E6A14173C850800C23C86 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 941E6A13173C850800C23C86 /* logo.png */; };
+		941E6A16173C857200C23C86 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 941E6A15173C857200C23C86 /* background.jpg */; };
 		E2531CD21739975600ABD751 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2531CD11739975600ABD751 /* UIKit.framework */; };
 		E2531CD41739975600ABD751 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2531CD31739975600ABD751 /* Foundation.framework */; };
 		E2531CD61739975600ABD751 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2531CD51739975600ABD751 /* CoreGraphics.framework */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		941E6A13173C850800C23C86 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		941E6A15173C857200C23C86 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../background.jpg; sourceTree = "<group>"; };
 		E2531CCE1739975600ABD751 /* PanicButtonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanicButtonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2531CD11739975600ABD751 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E2531CD31739975600ABD751 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +93,7 @@
 		E2531CC51739975600ABD751 = {
 			isa = PBXGroup;
 			children = (
+				941E6A13173C850800C23C86 /* logo.png */,
 				E2531CD71739975600ABD751 /* PanicButtonApp */,
 				E2531CFE1739975700ABD751 /* PanicButtonAppTests */,
 				E2531CD01739975600ABD751 /* Frameworks */,
@@ -133,6 +138,7 @@
 		E2531CD81739975600ABD751 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				941E6A15173C857200C23C86 /* background.jpg */,
 				E2531CD91739975600ABD751 /* PanicButtonApp-Info.plist */,
 				E2531CDA1739975600ABD751 /* InfoPlist.strings */,
 				E2531CDD1739975600ABD751 /* main.m */,
@@ -240,6 +246,8 @@
 				E2531CE81739975600ABD751 /* Default-568h@2x.png in Resources */,
 				E2531CEB1739975600ABD751 /* MainStoryboard_iPhone.storyboard in Resources */,
 				E2531CEE1739975600ABD751 /* MainStoryboard_iPad.storyboard in Resources */,
+				941E6A14173C850800C23C86 /* logo.png in Resources */,
+				941E6A16173C857200C23C86 /* background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +475,7 @@
 				E2531D0B1739975700ABD751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2531D0C1739975700ABD751 /* Build configuration list for PBXNativeTarget "PanicButtonAppTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +484,7 @@
 				E2531D0E1739975700ABD751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
